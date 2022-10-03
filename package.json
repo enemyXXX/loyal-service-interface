@@ -1,0 +1,46 @@
+{
+  "name": "@enemybastard/loyal-service-interface",
+  "version": "1.0.0",
+  "description": "Typescript interfaces to be implemented by project clients",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "engines": {
+    "node": ">=10.16.3",
+    "npm": ">=6.9.0"
+  },
+  "scripts": {
+    "lint": "eslint --ignore-path .eslintignore --ext .ts,.js .",
+    "lint:fix": "eslint --ignore-path .eslintignore --ext .ts,.js --fix .",
+    "build": "rm -rf dist && tsc",
+    "format": "prettier --config .prettierrc.js --write '*.{ts,js,json}' './src/**/*.{ts,js,json}' './tests/**/*.{ts,js,json}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enemyXXX/loyal-service-interface.git"
+  },
+  "bugs": {
+    "url": "https://github.com/enemyXXX/loyal-service-interface/issues"
+  },
+  "homepage": "https://github.com/enemyXXX/loyal-service-interface#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.30.0",
+    "@typescript-eslint/parser": "^2.30.0",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-typescript": "^7.2.1",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-filenames": "^1.3.2",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jest": "^24.1.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5",
+    "tsc-watch": "^4.2.9",
+    "tslib": "2.0.3",
+    "typescript": "^3.7.5"
+  },
+  "author": "enemyxxx",
+  "license": "UNLICENSED",
+  "dependencies": {}
+}
