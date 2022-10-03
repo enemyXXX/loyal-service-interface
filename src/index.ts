@@ -6,6 +6,7 @@ export {
     UserLoyalty,
     LoyaltyHistoryStatuses,
     LoyaltyHistoryDestinations,
+    LoyaltyHistoryDestination,
     LoyaltyHistoryStatus,
     LoyaltyHistoryItem,
     EditLoyaltyType
