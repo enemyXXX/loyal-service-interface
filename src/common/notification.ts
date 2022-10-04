@@ -1,4 +1,4 @@
-import { Order } from 'src/common/order';
+import { Order } from './order';
 
 export type NotificationDefinition =
     | 'created_order'
