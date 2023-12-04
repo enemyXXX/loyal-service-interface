@@ -1,5 +1,5 @@
 export { Feedback } from './common/feedback';
-export { GalleryDetails, GalleryImage } from './common/gallery';
+export { GalleryImage } from './common/gallery';
 export { FlappyBirdGameHistory, GameRating, GameInstance } from './common/game';
 export { LotteryMember, LotteryStatus, Lottery } from './common/lottery';
 export {
@@ -21,3 +21,4 @@ export { PushNotificationHandler, PushNotificationTypes, PushNotificationToken }
 export { Service, SelectedService, SelectedServicesInfo } from './common/service';
 export { Role, UserRole } from './common/user';
 export { WorkingDaysRange, WorkingDay } from './common/working-day';
+export { Discount, DiscountType } from './common/discount';

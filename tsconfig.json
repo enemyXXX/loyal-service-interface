@@ -11,10 +11,6 @@
     "noImplicitAny": true,
     "outDir": "./dist/",
     "baseUrl": ".",
-    "paths": {
-      "*": ["node_modules/*", "vendor/*"],
-      "src/*": ["./src/*"]
-    },
     "skipLibCheck": true,
     "sourceMap": true,
     "target": "es6",

@@ -14,6 +14,7 @@ export interface Service {
     without_time?: string[];
     min_order_date_hour?: number;
     max_order_date_hour?: number;
+    master: string;
 }
 
 export type SelectedService = Service;

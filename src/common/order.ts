@@ -29,6 +29,7 @@ export interface Order {
     feedback: string;
     visitsCount?: number;
     lastVisit?: Date;
+    avatar?: string | null;
     min_order_date_hour?: number;
     max_order_date_hour?: number;
 }

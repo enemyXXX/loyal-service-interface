@@ -10,4 +10,7 @@ export interface WorkingDay {
     master: string;
     start_hour: number;
     end_hour: number;
+    lunch?: boolean;
+    lunch_start_hour?: number;
+    lunch_end_hour?: number;
 }

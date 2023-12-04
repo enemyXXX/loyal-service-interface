@@ -7,6 +7,10 @@ export interface Master {
     active: boolean;
     rating: number;
     feedbacks: number;
+    place: string;
+    city: string;
+    latitude: number;
+    longitude: number;
 }
 
 export interface MasterInfo {

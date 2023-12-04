@@ -7,4 +7,6 @@ export interface Feedback {
     name: string;
     date: Date;
     id: string;
+    avatar: string;
+    services: string[];
 }

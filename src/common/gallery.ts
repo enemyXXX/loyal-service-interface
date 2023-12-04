@@ -1,13 +1,9 @@
-export interface GalleryDetails {
-    id: string;
-    title: string;
-}
-
 export interface GalleryImage {
     id: string;
-    topic: string;
-    date: Date;
-    thumbUrl: string;
-    mainUrl: string;
+    image: string;
     images: string[];
+    pinned?: boolean;
+    date: Date;
+    topic: string;
+    service?: string;
 }

@@ -2,6 +2,9 @@ export interface UserLoyalty {
     id: string;
     user_phone: string;
     points: number;
+    visit_points: number;
+    admin_points: number;
+    total_points: number;
     referral?: string;
     noReferral?: boolean;
 }
