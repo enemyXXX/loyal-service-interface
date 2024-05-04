@@ -21,4 +21,5 @@ export { PushNotificationHandler, PushNotificationTypes, PushNotificationToken }
 export { Service, SelectedService, SelectedServicesInfo } from './common/service';
 export { Role, UserRole } from './common/user';
 export { WorkingDaysRange, WorkingDay } from './common/working-day';
-export { Discount, DiscountType } from './common/discount';
+export { Discount, DiscountType, UserDiscount } from './common/discount';
+export { ChatSender, ChatItem, ChatInfo } from './common/chat';

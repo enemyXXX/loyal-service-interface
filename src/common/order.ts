@@ -2,17 +2,20 @@ export enum OrderStatusList {
     active = 'active',
     cancelled = 'cancelled',
     completed = 'completed',
-    missed = 'missed'
+    missed = 'missed',
+    manager = 'manager',
 }
 
 export type OrderStatus =
     | OrderStatusList.active
     | OrderStatusList.cancelled
     | OrderStatusList.completed
-    | OrderStatusList.missed;
+    | OrderStatusList.missed
+    | OrderStatusList.manager;
 
 export interface Order {
     id: string;
+    appOrder?: boolean;
     date: Date;
     description?: string;
     start_hour: number;
@@ -22,6 +25,8 @@ export interface Order {
     user_phone: string;
     status: OrderStatus;
     total: number;
+    prevTotal?: number;
+    discount?: string;
     notify: number;
     isNotified: boolean;
     services: string[];

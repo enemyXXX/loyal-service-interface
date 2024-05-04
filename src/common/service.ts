@@ -8,13 +8,13 @@ export interface Service {
     max_duration: number;
     price: number;
     photo_url: string;
-    multiply: boolean;
     consultation: boolean;
     undefined_max_price: boolean;
     without_time?: string[];
     min_order_date_hour?: number;
     max_order_date_hour?: number;
     master: string;
+    disable_alone: boolean;
 }
 
 export type SelectedService = Service;
@@ -23,6 +23,7 @@ export interface SelectedServicesInfo {
     count: number;
     duration: number;
     amount: number;
+    prevAmount?: number;
     min_order_date_hour?: number;
     max_order_date_hour?: number;
 }

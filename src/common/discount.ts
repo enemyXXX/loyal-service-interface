@@ -11,7 +11,19 @@ export interface Discount {
     activations: number;
     purchases: number;
     discount: number;
+    giftedCount: number;
     discountType: DiscountType;
     possibleServices: string[];
+    cost: number;
     active: boolean;
+}
+
+export interface UserDiscount {
+    id: string;
+    discountId: string;
+    user_phone: string;
+    purchaseDate: Date;
+    isActivated: boolean;
+    activationDate?: Date;
+    gift?: boolean;
 }

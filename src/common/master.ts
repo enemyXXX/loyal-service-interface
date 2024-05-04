@@ -11,6 +11,7 @@ export interface Master {
     city: string;
     latitude: number;
     longitude: number;
+    rate: number;
 }
 
 export interface MasterInfo {

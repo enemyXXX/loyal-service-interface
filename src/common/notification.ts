@@ -6,7 +6,7 @@ export type NotificationDefinition =
     | 'missed_order'
     | 'cancelled_order'
     | 'declined_order'
-    | 'lottery';
+    | 'lottery'
 
 export interface UserNotification {
     id: string;

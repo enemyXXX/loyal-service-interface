@@ -6,4 +6,7 @@ export interface GalleryImage {
     date: Date;
     topic: string;
     service?: string;
+    description?: string;
+    master: string;
+    likes: number;
 }

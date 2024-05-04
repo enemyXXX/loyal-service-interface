@@ -7,6 +7,7 @@ export interface UserLoyalty {
     total_points: number;
     referral?: string;
     noReferral?: boolean;
+    likes?: string[];
 }
 
 export enum LoyaltyHistoryStatuses {
@@ -18,7 +19,8 @@ export enum LoyaltyHistoryDestinations {
     ORDER = 'order',
     REFERRAL = 'referral',
     TOURNAMENT = 'tournament',
-    OTHER = 'other'
+    OTHER = 'other',
+    DISCOUNT = 'discount'
 }
 
 export type LoyaltyHistoryStatus = LoyaltyHistoryStatuses;
