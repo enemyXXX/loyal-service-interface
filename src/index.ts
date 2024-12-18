@@ -16,7 +16,7 @@ export { CloseModalStatuses, CloseModalStatus } from './common/modal';
 export { NewsElement } from './common/news';
 export { ClientNotices } from './common/notice';
 export { NotificationDefinition, UserNotification } from './common/notification';
-export { OrderStatusList, OrderStatus, Order, SelectedTime } from './common/order';
+export { OrderStatusList, OrderStatus, Order, SelectedTime, OrderType, OrderTypesList } from './common/order';
 export { PushNotificationHandler, PushNotificationTypes, PushNotificationToken } from './common/push-notification';
 export { Service, SelectedService, SelectedServicesInfo } from './common/service';
 export { Role, UserRole } from './common/user';

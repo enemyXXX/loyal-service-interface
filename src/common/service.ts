@@ -15,6 +15,7 @@ export interface Service {
     max_order_date_hour?: number;
     master: string;
     disable_alone: boolean;
+    gold_fee?: boolean;
 }
 
 export type SelectedService = Service;

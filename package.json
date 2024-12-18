@@ -1,6 +1,6 @@
 {
   "name": "@enemybastard/loyal-service-interface",
-  "version": "1.0.56",
+  "version": "1.0.58",
   "description": "Typescript interfaces to be implemented by project clients",
   "main": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
@@ -11,7 +11,7 @@
   "scripts": {
     "lint": "eslint --ignore-path .eslintignore --ext .ts,.js .",
     "lint:fix": "eslint --ignore-path .eslintignore --ext .ts,.js --fix .",
-    "build": "rm -rf dist && tsc",
+    "build": "tsc",
     "format": "prettier --config .prettierrc.js --write '*.{ts,js,json}' './src/**/*.{ts,js,json}' './tests/**/*.{ts,js,json}'"
   },
   "repository": {

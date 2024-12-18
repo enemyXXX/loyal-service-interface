@@ -6,12 +6,25 @@ export enum OrderStatusList {
     manager = 'manager',
 }
 
+export enum OrderTypesList {
+    ads = 'Реклама',
+    lottery = 'Розыгрыш',
+    social = 'Соцсети',
+    barter = 'Бартер'
+}
+
 export type OrderStatus =
     | OrderStatusList.active
     | OrderStatusList.cancelled
     | OrderStatusList.completed
     | OrderStatusList.missed
     | OrderStatusList.manager;
+
+export type OrderType =
+    | OrderTypesList.ads 
+    | OrderTypesList.lottery
+    | OrderTypesList.social
+    | OrderTypesList.barter;    
 
 export interface Order {
     id: string;
@@ -37,6 +50,7 @@ export interface Order {
     avatar?: string | null;
     min_order_date_hour?: number;
     max_order_date_hour?: number;
+    orderType?: OrderType;
 }
 
 export interface SelectedTime {
